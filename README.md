@@ -48,12 +48,12 @@ pnpm lint
 
 ## 构建记录
 
-- 根据[官方文档](https://cn.vuejs.org/guide/quick-start.html)的步骤构建基础框架
-- 添加`husky`和`czg`
-- 添加`tailwindcss`、`postcss`、`autoprefixer`
-- 使用命令`npx tailwindcss init -p --ts --full`生成`tailwind.config.ts`文件和`postcss.config.js`文件
-- 更换`tailwindcss.config.ts`文件中的`content`属性为`['./src/**/*.{html,js,vue,tsx,jsx}']`
-- 添加`styles/main.css`文件并引入`tailwindcss`的基础样式
-- 清理不需要的`router`、`store`和`views`文件，以及`components`文件夹和`assets`文件夹
-- 新增element-plus并配置按需导入和主题定制，以及国际化
-- 更新下vue
+- [x] 根据[官方文档](https://cn.vuejs.org/guide/quick-start.html)的步骤构建基础框架
+- [x] 引入`husky`和`czg`
+- [x] 引入`tailwindcss`、`postcss`、`autoprefixer`
+- [x] 使用命令`npx tailwindcss init -p --ts --full`生成`tailwind.config.ts`文件和`postcss.config.js`文件
+- [x] 更换`tailwindcss.config.ts`文件中的`content`属性为`['./src/**/*.{html,js,vue,tsx,jsx}']`
+- [x] 引入`styles/main.css`文件并引入`tailwindcss`的基础样式
+- [x] 清理不需要的`router`、`store`和`views`文件，以及`components`文件夹和`assets`文件夹
+- [x] 引入element-plus并配置按需导入和主题定制，以及国际化
+- [x] 引入`@vueuse/core`和`lodash-es`
