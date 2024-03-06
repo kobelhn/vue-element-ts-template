@@ -55,3 +55,5 @@ pnpm lint
 - 更换`tailwindcss.config.ts`文件中的`content`属性为`['./src/**/*.{html,js,vue,tsx,jsx}']`
 - 添加`styles/main.css`文件并引入`tailwindcss`的基础样式
 - 清理不需要的`router`、`store`和`views`文件，以及`components`文件夹和`assets`文件夹
+- 新增element-plus并配置按需导入和主题定制，以及国际化
+- 更新下vue
