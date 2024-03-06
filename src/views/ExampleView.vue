@@ -21,7 +21,6 @@
 <script setup lang="ts">
 import { useCounterStore } from '@/stores/example'
 import ExampleComponents from '@/components/ExampleComponents.vue';
-import { useLocalStorage, useMouse } from '@vueuse/core'
 import { cloneDeep } from 'lodash-es'
 
 const date = ref(undefined)

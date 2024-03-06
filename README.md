@@ -57,3 +57,10 @@ pnpm lint
 - [x] 清理不需要的`router`、`store`和`views`文件，以及`components`文件夹和`assets`文件夹
 - [x] 引入element-plus并配置按需导入和主题定制，以及国际化
 - [x] 引入`@vueuse/core`和`lodash-es`
+- [ ] 引入`vite-plugin-svg`处理svg icon并封装`SvgIcon`组件并配置为自动导入组件
+- [ ] 引入`axios`和`vite-plugin-mock`并编写登录、注册页面
+- [ ] 增加路由守卫和JWT
+- [ ] 编写布局
+- [ ] 增强封装Form组件
+- [ ] 增强封装Dialog组件
+- [ ] 增强封装Table组件
