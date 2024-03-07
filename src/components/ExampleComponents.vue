@@ -1,8 +1,7 @@
 <template>
     <div>
-        <svg-icon name="aid-kit" />
-        <el-button type="primary">
-            <svg-icon name="aid-kit" />
-        </el-button>
+        <svg-icon name="icomoon-aid-kit" />
+        <svg-icon name="icomoon-aid-kit" />
+        <svg-icon name="ant-accountbook-fill" />
     </div>
 </template>
