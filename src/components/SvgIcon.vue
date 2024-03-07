@@ -1,10 +1,3 @@
-<template>
-    <svg aria-hidden="true" :class="svgClass"
-        :style="`width: ${iconSize}; height: ${iconSize}`">
-        <use :xlink:href="symbolId" :fill="color" />
-    </svg>
-</template>
-
 <script setup lang="ts">
 
 defineOptions({
@@ -36,3 +29,9 @@ const svgClass = computed(() => {
 })
 
 </script>
+
+<template>
+    <svg aria-hidden="true" :style="`width: ${iconSize}; height: ${iconSize}`" :class="svgClass">
+        <use :xlink:href="symbolId" :fill="color" />
+    </svg>
+</template>
